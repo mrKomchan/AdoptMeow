@@ -1,0 +1,489 @@
+.colpadding {
+    padding-bottom: 10px;
+}
+
+.custom-card-body {
+    background-color: #766832;
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+}
+
+.custom-btn {
+    background-color: #000000;
+    border-color: #fff;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.custom-btn-over {
+    color: #000000;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.custom-btn2 {
+    background-color: #000000;
+    border-color: #fff;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.custom-btn:hover {
+    background-color: #fff;
+    border-color: #007bff;
+    color: #000000;
+}
+
+.custom-card-title {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+
+.custom-card-text {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.card-info-flex {
+    flex-direction: column-reverse;
+}
+
+.card-info-flex .status {
+    text-align: right;
+    margin-bottom: 0 !important;
+}
+
+.card-info-flex .status span {
+    font-size: 1rem;
+}
+
+
+
+@media only screen and (max-width:990px) {
+    #searchform {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: 15px;
+    }
+}
+
+#banner {
+    background-color: #7a6728;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+#banner h1 {
+    color: white;
+    font-size: 70px;
+    margin-top: 20px;
+
+}
+
+#banner p {
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+#bannerbtn1 {
+    background-color: rgba(32, 31, 31, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    color: white;
+}
+
+#bannerbtn1:hover {
+    background-color: #4b3c06;
+}
+
+#bannerbtn2 {
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(32, 31, 31, 0.9);
+    margin-left: 15px;
+}
+
+#bannerbtn2:hover {
+    background-color: #4b3c06;
+}
+
+@media only screen and (max-width: 900px) {
+    #banner h1 {
+        font-size: 50px;
+    }
+
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    #bannerimg {
+        padding-top: 20px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #bannerimg {
+        padding-top: 20px;
+        width: 100px;
+    }
+}
+
+/* service */
+
+#servicetext {
+    padding-top: 6%;
+    padding-bottom: 5%;
+    color: #6e5602;
+}
+
+#servicebtn {
+    color: white;
+    background-color: #4b3c06;
+    border: 2px solid #332904;
+}
+
+#serviceimg {
+    padding: 4%;
+}
+
+@media only screen and (max-width: 1087px) {
+    #serviceimg {
+        padding-top: 10%;
+    }
+}
+
+/* counter section */
+
+#countersection {
+    background-image:
+        linear-gradient(rgba(75, 60, 7, 0.849),
+            rgba(66, 54, 0, 0.75)), url('../css/images/play.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-position: center;
+}
+
+.countericon {
+    font-size: 70px;
+}
+
+@media only screen and (max-width:500px) {
+    .countericon {
+        font-size: 50px;
+    }
+}
+
+/* blog */
+
+#blog {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+#blogtitle {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #685306;
+}
+
+#blogp {
+    font-size: 20px;
+    margin-bottom: 70px;
+    color: #6e5602;
+}
+
+.articledetail {
+    padding: 15px;
+    border: 1px solid rgb(203, 201, 201);
+    border-top: 0;
+    color: #6a5603;
+}
+
+.articlelink,
+.articledate {
+    color: #443702;
+
+}
+
+/* footer */
+
+#footer {
+    background-color: #171300;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footerform {
+    margin: 10px 0;
+}
+
+#footersearchbox {
+    background-color: #7a6728;
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 250px;
+    position: relative;
+    left: 10px;
+}
+
+#footersearchsubmit {
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 30px;
+    background-color: #4b3c06;
+    ;
+}
+
+.socialicon {
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 1065px) {
+    #footersearchbox {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 908px) {
+    #footersearchbox {
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #footersearchbox {
+        max-width: 200px;
+    }
+
+    #footer {
+        padding-top: 10px;
+    }
+
+    #footer h4 {
+        padding-top: 50px;
+    }
+}
+
+.colpadding {
+    padding-bottom: 10px;
+}
+
+.custom-card-body {
+    background-color: #766832;
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+}
+
+.custom-btn {
+    background-color: #000000;
+    border-color: #fff;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.custom-btn-over {
+    color: #000000;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.custom-btn2 {
+    background-color: #000000;
+    border-color: #fff;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.custom-btn:hover {
+    background-color: #fff;
+    border-color: #007bff;
+    color: #000000;
+}
+
+.custom-card-title {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 2rem;
+}
+
+.custom-card-text {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.card-info-flex {
+    flex-direction: column-reverse;
+}
+
+.card-info-flex .status {
+    text-align: right;
+    margin-bottom: 0 !important;
+}
+
+.card-info-flex .status span {
+    font-size: 1rem;
+}
+
+
+/* กดถูกใจ */
+.con-like {
+    --red: #ee427b;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.con-like .like {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.con-like .checkmark {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-like .outline,
+.con-like .filled {
+    fill: var(--red);
+    position: absolute;
+}
+
+.con-like .filled {
+    animation: kfr-filled 0.5s;
+    display: none;
+}
+
+.con-like .celebrate {
+    position: absolute;
+    animation: kfr-celebrate 0.5s;
+    animation-fill-mode: forwards;
+    display: none;
+}
+
+.con-like .poly {
+    stroke: var(--red);
+    fill: var(--red);
+}
+
+.con-like .like:checked~.checkmark .filled {
+    display: block
+}
+
+.con-like .like:checked~.checkmark .celebrate {
+    display: block
+}
+
+@keyframes kfr-filled {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes kfr-celebrate {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+        display: none;
+    }
+}
+
+button {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 17px;
+    padding: 1em 2.7em;
+    font-weight: 500;
+    background: #1F2937;
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.6em;
+}
+
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    margin-top: -0.25em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+}
+
+.label {
+    position: relative;
+    top: -1px;
+}
+
+.transition {
+    transition-timing-function: cubic-bezier(0, 0, .2, 1);
+    transition-duration: 500ms;
+    background-color: rgba(16, 185, 129, 0.6);
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button:hover .transition {
+    width: 30em;
+    height: 30em;
+}
+
+button:active {
+    transform: scale(0.97);
+}

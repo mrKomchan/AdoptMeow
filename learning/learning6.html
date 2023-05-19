@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Adoptmeow</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        .like-button {
+            font-size: 14px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            transition: background-color 0.3s ease;
+        }
+
+        .like-button.blue {
+            background-color: rgb(64, 147, 241);
+        }
+
+        .like-count {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img src="../css/images/image.png" alt="logo" class="img-fluid"
+                        width="80"></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="../index.html" class="nav-item nav-link">หน้าหลัก</a>
+                        <a href="../adopt.html" class="nav-item nav-link">รับเลี้ยง</a>
+                        <a href="../blogs.html" class="nav-item nav-link active">บทความ</a>
+                        <a href="../contact.html" class="nav-item nav-link">ติดต่อ</a>
+                        <a href="../shop/shop.html" class="nav-item nav-link">ของที่ระลึก/บริจาคช่วยเหลือ</a>
+                    </div> 
+                    <form class="d-flex ms-auto">
+                        <div class="input-group">
+                            <input type="text" class="form-control " placeholder="Search">
+                            <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                        </div>
+                    </form>
+                    <ul></ul>
+                    <button onclick="document.location.href='./loginpage/login.html'"="./loginpage/login.html"
+                        type="button" class="btn btn-primary">
+                        เข้าสู่ระบบ
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row justify-content-center" id="blog">
+            <div class="col-md-4 text-center">
+                <div>
+                    <img src="../css/รูปแมว/รูปแมว ความรู้/ความรู้6.jpg" alt="รูปภาพ" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Container (About Section) -->
+            <div class="w3-content w3-container w3-padding-64" id="about">
+                <br>
+                <h1 id="blogtitle">ความลับหูแมว</h1>
+                <p class="w3-center"><em>02 เมษายน 2023</em></p>
+                <p>
+                    แมวเป็นสัตว์ที่หูไวมาก เรียกว่าหูดีกว่ามนุษย์หลายเท่าเลยทีเดียว ด้วยประสาทการฟังที่ดีเยี่ยมนี้เอง
+                    ทำให้แมวใช้การฟังเป็นหนึ่งในประสาทสัมผัสเพื่อการล่าเหยื่อ เพราะพวกเค้าสามารถได้ยินเสียงเล็กๆ น้อยๆ
+                    ที่สัตว์ตัวเล็กๆ เช่น หนู หรือกระต่ายส่งเสียงออกมาได้
+                    ด้วยเหตุนี้แมวถึงตามหาเหยื่อได้แม้ว่าจะหลบซ่อนอยู่ที่ไหนก็ตาม
+                    แต่ในขณะเดียวกันแมวก็เป็นสัตว์ที่เกลียดเสียงดังและไม่ชอบอยู่ในสถานที่วุ่นวาย
+                    เพราะแมวสามารถได้ยินเสียงดังมากกว่ามนุษย์ถึง 10 เท่า
+                    แน่นอนว่าเสียงเหล่านั้นส่งผลเสียต่อสุขภาพแมวในระยะยาวได้เช่นกัน
+                    ใครที่เลี้ยงแมวก็ควรมีพื้นที่สงบเงียบให้แมวได้พักผ่อนและไม่ควรพาแมวไปในที่ๆ
+                    วุ่นวายและมีเสียงดังเป็นระยะเวลานานๆ นะ เพราะนั่นช่างค้านกับพฤติกรรมแมวตามธรรมชาติจริงๆ
+                    <br><br>
+                    ทำความสะอาดหูน้องแมว
+                    ถึงแม้น้องแมวจะมีนิสัยรักสวยรักงาม ปลื้มความสะอาด คอยเลียขนแต่งตัวอยู่เป็นประจำก็ตาม
+                    แต่ก็อย่าเผลอละเลยจุดสำคัญที่น้องแมวทำความสะอาดได้ไม่ถึง
+                    และเป็นจุดที่หลายๆคนมักมองข้ามอย่างความสะอาดของ “ช่องหู” ด้วยนะ
+                    เพราะการทำความสะอาดหูแมวจากภายนอกอย่างเดียว อาจไม่เพียงพอ เราจึงควรเช็คหูแมวอย่างน้อยเดือนละ 1 ครั้ง
+                    เพื่อลดโอกาสที่จะเกิดปัญหาเกี่ยวกับช่องหูตามมา
+                    สำหรับน้องแมวที่มีใบหูตั้งเปิด อาจจะไม่มีปัญหาเกี่ยวกับความสกปรกของหูมากนัก
+                    เพราะช่องหูสามารถผลิตขี้หูและขับออกมาได้ง่ายกว่าน้องแมวสายพันธุ์ที่มีใบหูพับอย่าง สก็อตติชโฟลด์
+                    ที่มีใบหูปิดพับ ซึ่งอาจจะมีการสะสมของขี้หูและเกิดปัญหาช่องหูภายนอกอักเสบตามมาได้
+                    การทำความสะอาดหูแมวจึงเป็นการช่วยลดปัญหาต่างๆ
+                    ที่อาจเกิดกับช่องหูน้องแมวและยังทำให้เจ้าของที่เช็ดหูแมวได้สังเกตสี กลิ่น ลักษณะของขี้หู เป็นประจำ
+                    หากเกิดความผิดปกติจะได้รีบพาน้องแมวไปพบคุณหมอ และรักษาได้อย่างทันท่วงที
+                    <br><br>
+                    นอกจากนี้การทำความสะอาดหูแมว ยังเป็นการจัดการและป้องกันปัญหาไรในหูที่ดีอีกวิธีหนึ่ง
+                    ปัญหาไรในหูที่ดูเป็นเรื่องเล็ก แต่ก็เป็นอีกหนึ่งสาเหตุสำคัญที่ทำให้เกิดปัญหาหูอักเสบ
+                    และเกิดการติดเชื้อแทรกซ้อนในช่องหู เช่น ยีสต์ ตามมาได้ น้องแมวที่มีปัญหาไรในหูจะมีอาการคันหูรุนแรง
+                    ขี้หูมีสีดำ และมีกลิ่นเหม็น ใบหูแดงอักเสบ หากมีการติดเชื้อเข้าไปยังหูชั้นกลาง หรือหูชั้นใน
+                    ก็อาจทำให้มีปัญหาเกี่ยวกับระบบประสาทได้อีกด้วย
+                    ดังนั้นการมีหูที่สะอาดจึงเป็นส่วนสำคัญที่จะช่วยลดโอกาสการเกิดปัญหาร้ายแรงเกี่ยวกับช่องหูที่อาจเกิดกับน้องแมวของเราได้นั่นเอง
+                    มาเริ่มเช็ดหูแมวด้วยตัวคุณเอง ด้วยวิธีง่ายๆ ในการทำความสะอาดหูแมว
+                    เพียงแค่เตรียมน้ำยาล้างหูสำหรับสัตว์เลี้ยงโดยเฉพาะ (สามารถสอบถามได้จากสัตวแพทย์) สำลี
+                    และเตรียมใจของคุณให้พร้อม จากนั้นมาเริ่มกันแบบ Step By Step ได้เลย
+                    <br>
+                    1. จัดน้องแมวให้อยู่ในท่านั่งสบาย
+                    <br>
+                    2. ค่อยๆ เปิดหูน้องแมว แล้วเทน้ำยาสำหรับทำความสะอาดหูน้องแมวเข้าไปในช่องหูเล็กน้อย
+                    ให้น้ำยาล้างหูท่วมภายในช่องหู
+                    <br>
+                    3. จับใบหูเอาไว้ แล้วเลื่อนมือไปนวดคลึงที่บริเวณโคนหู
+                    เพื่อให้สิ่งสกปรกในช่องหูละลายออกมากับน้ำยาล้างหู
+                    <br>
+                    4. หลังจากนวดประมาณ 20 วินาที ให้ปล่อยมือออก
+                    <br>
+                    5. ปล่อยให้น้องแมวสบัดหัวเพื่อเอาน้ำยาล้างหูออก
+                    <br>
+                    6. ใช้สำลีซับน้ำยาที่อยู่บริเวณช่องหูส่วนนอก และบริเวณใบหูออกไปจนสะอาด ไม่มีคราบน้ำยา
+                    <br>
+                    7. ชมน้องแมวเป็นกำลังใจสักหน่อย จากนั้นมาเริ่มที่หูอีกข้างได้เลย
+                    <br>
+                    ไม่ต้องกังวลว่าหากเช็ดน้ำยาออกมาไม่หมดจะเป็นอันตราย เพราะน้องแมวจะสะบัดหู
+                    เอาน้ำยาล้างหูที่ค้างอยู่ออกมาได้เอง แต่ไม่ควรเช็ดหูน้องแมวลึกเกินไป เพราะอาจจะระคายหูส่วนใน
+                    ใช้สำลีเช็คทำความสะอาดน้ำยาเช็ดหูที่ติดรอบๆ ใบหูและช่องหูด้านนอกก็เพียงพอแล้ว
+                    เห็นไหมว่าการเช็ดหูน้องแมวไม่ยากอย่างที่เจ้าของหลายๆ คนกลัวกัน
+                    แนะนำว่าควรเริ่มทำตั้งแต่น้องแมวยังเล็กๆ และให้รางวัลด้วยการชม หรือเล่นกับน้องแมวทุกครั้ง
+                    หลังจากที่เช็ดหูน้องแมวเสร็จแล้ว เพื่อให้น้องแมวจดจำว่าการเช็ดหูไม่ใช่เรื่องที่น่ากลัว
+                    แถมเจ้าของยังได้ใกล้ชิดน้องแมวเพิ่มขึ้นอีกด้วย
+                </p>
+                <button onclick="document.location='../learning/learning5.html'">
+                    <span class="transition"></span>
+                    <span class="gradient"></span>
+                    <span class="label"> &laquo; Prev </span>
+                  </button>
+                
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+    <!-- footer -->
+
+    <section>
+        <div class="row text-white" id="footer">
+            <div class="col-md-6 col-12 d-flex justify-content-center justify-content-md-start">
+                <img src="../css/images/image.png" alt="logo" class="img-fluid w-25">
+            </div>
+            <div class="col-md-6 text-end col-12 ">
+                <h4>ติดต่อ</h4>
+                <form action="" id="footerform">
+                    <input type="text" name="" id="footersearchbox">
+                    <button type="submit" id="footersearchsubmit"><i class="bi bi-cursor-fill"></i></button>
+                </form>
+                <i class="bi bi-instagram socialicon"></i>
+                <i class="bi bi-facebook socialicon"></i>
+                <i class="bi bi-twitter socialicon"></i>
+                <i class="bi bi-whatsapp socialicon"></i>
+            </div>
+        </div>
+    </section>
+</body>
