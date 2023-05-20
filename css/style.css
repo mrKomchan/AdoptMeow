@@ -168,7 +168,7 @@
 #countersection {
     background-image:
         linear-gradient(rgba(75, 60, 7, 0.849),
-            rgba(66, 54, 0, 0.75)), url('../css/images/play.jpg');
+            rgba(66, 54, 0, 0.75)), url('https://imgz.io/images/2023/05/20/play.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 70px;
